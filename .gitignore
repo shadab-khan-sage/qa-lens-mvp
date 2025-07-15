@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/SampleApp/SampleApp/obj
+/src/SampleApp/.vs/SampleApp
+/src/SampleApp/SampleApp/bin/Debug/net8.0
+/src/SampleApp/.idea/.idea.SampleApp/.idea
+/src/SampleApp/QaLensConsole/bin/Debug/net8.0
+/src/SampleApp/QaLensConsole/obj

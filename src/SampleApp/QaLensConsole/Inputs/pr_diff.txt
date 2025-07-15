@@ -1,0 +1,30 @@
+Diff for src/SampleApp/SampleApp/Program.cs
+diff --git a/src/SampleApp/SampleApp/Program.cs b/src/SampleApp/SampleApp/Program.cs
+index 9f091bc..e5f6239 100644
+--- a/src/SampleApp/SampleApp/Program.cs
++++ b/src/SampleApp/SampleApp/Program.cs
+@@ -7,6 +7,21 @@
+             Console.WriteLine("Hello, World!");
+             Console.WriteLine("Hello, World1!");
+             Console.WriteLine("Hello, World2!");
++            int sum = Add(5, 3);
++            int difference = Subtract(5, 3);
++            Console.WriteLine($"Sum: {sum}");
++            Console.WriteLine($"Difference: {difference}");
++        }
++
++        static int Add(int a, int b)
++        {
++            return a + b;
++        }
++
++        static int Subtract(int a, int b)
++        {
++            return a - b;
++
+         }
+     }
+ }
+
+
+
