@@ -6,7 +6,8 @@ namespace SampleApp
     {
         public static void LogOperation(string operationName)
         {
-            Console.WriteLine($"Operation performed: {operationName}");
+            string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            Console.WriteLine($"[{timestamp}] Operation performed: {operationName}");
         }
     }
 } 
